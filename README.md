@@ -7,6 +7,8 @@ Ejecutar composer install
 Ejecute php artisan key:generate
 Ejecute php artisan migrate --seed (tiene algunos datos seed para su testing)
 php artisan passport:client --personal
+composer require laravel/passport
+php artisan passport:install
 Eso es todo: abre la URL principal.
 Puede iniciar sesión en el panel de administración yendo a / URL de inicio de sesión e iniciar sesión con las credenciales 
 Usuario: admin@admin.com
@@ -19,6 +21,7 @@ Database Schema
 ![modelo](https://user-images.githubusercontent.com/58869926/155495868-425f3a44-1010-467b-89af-627f16e1d57b.jpg)
 
 Capturas de imagenes del Frontend
+https://test.com
 
 ![Image17](https://user-images.githubusercontent.com/58869926/155534779-133b6c83-6b03-4227-b54c-a192e8d3a11e.jpg)
 ![Image20](https://user-images.githubusercontent.com/58869926/155534786-e8eb42ef-2ba1-4b7a-841c-a0f1e679cb61.jpg)
@@ -26,6 +29,7 @@ Capturas de imagenes del Frontend
 ![Image24](https://user-images.githubusercontent.com/58869926/155534790-49200440-6409-4c07-82ab-a478b027fa52.jpg)
 
 Capturas de imagenes del Backend
+https://test.com/admin
 
 ![Image5](https://user-images.githubusercontent.com/58869926/155495904-398c1962-9ff2-4917-ae57-111d5a1edd76.jpg)
 ![Image7](https://user-images.githubusercontent.com/58869926/155495911-57d8d5bf-6f79-4744-a979-dbbeb404b37f.jpg)
