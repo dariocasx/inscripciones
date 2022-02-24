@@ -6,10 +6,13 @@ Copie el archivo .env.example a .env y edite las credenciales de la base de dato
 Ejecutar composer install
 Ejecute php artisan key:generate
 Ejecute php artisan migrate --seed (tiene algunos datos seed para su testing)
+php artisan passport:client --personal
 Eso es todo: abre la URL principal.
 Puede iniciar sesión en el panel de administración yendo a / URL de inicio de sesión e iniciar sesión con las credenciales 
 Usuario: admin@admin.com
 Password: password
+
+
 
 Database Schema
 
@@ -29,3 +32,7 @@ Capturas de imagenes del Backend
 ![Image9](https://user-images.githubusercontent.com/58869926/155495917-4e211af4-dd0e-4278-bd11-e10b9ec0354c.jpg)
 ![Image10](https://user-images.githubusercontent.com/58869926/155495930-879ac999-b1fd-4569-bc23-38a97e429c18.jpg)
 ![Image12](https://user-images.githubusercontent.com/58869926/155495940-4c8d42ca-25fc-4e2b-a312-c332ca12a13a.jpg)
+
+Ingresamos el endpoint http://test.com/api/v1/enrollments
+con el token obtenido anteriormente
+![Image26](https://user-images.githubusercontent.com/58869926/155537806-ffdfd1ff-75b3-4b84-80b5-b83f7d51ced7.jpg)
