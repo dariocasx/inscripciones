@@ -7,16 +7,22 @@ Ejecutar composer install
 Ejecute php artisan key:generate
 Ejecute php artisan migrate --seed (tiene algunos datos seed para su testing)
 Eso es todo: abre la URL principal.
-Puede iniciar sesión en el panel de administración yendo a / URL de inicio de sesión e iniciar sesión con las credenciales admin@admin.com - password
+Puede iniciar sesión en el panel de administración yendo a / URL de inicio de sesión e iniciar sesión con las credenciales 
+Usuario: admin@admin.com
+Password: password
 
 Database Schema
 
 ![modelo](https://user-images.githubusercontent.com/58869926/155495868-425f3a44-1010-467b-89af-627f16e1d57b.jpg)
 
+Capturas de imagenes del Frontend
+
 ![Image17](https://user-images.githubusercontent.com/58869926/155534779-133b6c83-6b03-4227-b54c-a192e8d3a11e.jpg)
 ![Image20](https://user-images.githubusercontent.com/58869926/155534786-e8eb42ef-2ba1-4b7a-841c-a0f1e679cb61.jpg)
 ![Image22](https://user-images.githubusercontent.com/58869926/155534788-68f339aa-a471-4635-a07f-c41d227e7dfd.jpg)
 ![Image24](https://user-images.githubusercontent.com/58869926/155534790-49200440-6409-4c07-82ab-a478b027fa52.jpg)
+
+Capturas de imagenes del Backend
 
 ![Image5](https://user-images.githubusercontent.com/58869926/155495904-398c1962-9ff2-4917-ae57-111d5a1edd76.jpg)
 ![Image7](https://user-images.githubusercontent.com/58869926/155495911-57d8d5bf-6f79-4744-a979-dbbeb404b37f.jpg)
