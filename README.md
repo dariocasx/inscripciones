@@ -31,62 +31,57 @@ Capturas de imagenes del Backend
 ![Image7](https://user-images.githubusercontent.com/58869926/155495911-57d8d5bf-6f79-4744-a979-dbbeb404b37f.jpg)
 ![Image9](https://user-images.githubusercontent.com/58869926/155495917-4e211af4-dd0e-4278-bd11-e10b9ec0354c.jpg)
 
+API REST
+
 Obtenemos el token con el endpoint /api/auth/login
+En el body:
+{
+    "email": "admin@admin.com",
+    "password": "password",
+    "name": "admin"
+}
+
 ![token](https://user-images.githubusercontent.com/58869926/155538651-19257c7d-1490-428b-b167-ca5ed82b7160.jpg)
 
 ![Image12](https://user-images.githubusercontent.com/58869926/155495940-4c8d42ca-25fc-4e2b-a312-c332ca12a13a.jpg)
 
-Ingresamos el endpoint /api/v1/enrollments
-con el token obtenido anteriormente
-![Image26](https://user-images.githubusercontent.com/58869926/155537806-ffdfd1ff-75b3-4b84-80b5-b83f7d51ced7.jpg)
+Ingresamos el token obtenido anteriormente
+Ruta
+auth:api   |
+|        | GET|HEAD  | api/v1/enrollments/{enrollment}     | enrollments.show              | App\Http\Controllers\Api\V1\Admin\EnrollmentsApiController@show  
+
+
+![token2](https://user-images.githubusercontent.com/58869926/155540493-47b1c2c4-b34a-44da-af3f-66169265c111.jpg)
+
+http://test.com/api/v1/enrollments/4
+
 {
-    "data": [
-        {
-            "id": 1,
-            "status": "awaiting",
-            "created_at": "2022-02-24T08:35:54.000000Z",
-            "updated_at": "2022-02-24T08:35:54.000000Z",
-            "deleted_at": null,
-            "user_id": 3,
-            "course_id": 2,
-            "user": {
-                "id": 3,
-                "name": "Dario cesar",
-                "email": "dariocasx22@hotmail.com",
-                "email_verified_at": null,
-                "created_at": "2022-02-24T08:32:01.000000Z",
-                "updated_at": "2022-02-24T08:32:01.000000Z",
-                "deleted_at": null
-            },
-            "course": null
+    "data": {
+        "id": 4,
+        "status": "accepted",
+        "created_at": "2022-02-24T14:09:08.000000Z",
+        "updated_at": "2022-02-24T14:09:08.000000Z",
+        "deleted_at": null,
+        "user_id": 4,
+        "course_id": 4,
+        "user": {
+            "id": 4,
+            "name": "Diego",
+            "email": "diego22@hotmail.com",
+            "email_verified_at": null,
+            "created_at": "2022-02-24T08:37:40.000000Z",
+            "updated_at": "2022-02-24T08:37:40.000000Z",
+            "deleted_at": null
         },
-        {
-            "id": 2,
-            "status": "awaiting",
-            "created_at": "2022-02-24T13:35:35.000000Z",
-            "updated_at": "2022-02-24T13:35:35.000000Z",
+        "course": {
+            "id": 4,
+            "name": "Curso de HTML5",
+            "description": "Aprenda lo basico en 3 meses",
+            "created_at": "2022-02-24T13:29:19.000000Z",
+            "updated_at": "2022-02-24T13:29:19.000000Z",
             "deleted_at": null,
-            "user_id": 8,
-            "course_id": 4,
-            "user": {
-                "id": 8,
-                "name": "Jorge",
-                "email": "jorge@hotmail.com",
-                "email_verified_at": null,
-                "created_at": "2022-02-24T13:35:35.000000Z",
-                "updated_at": "2022-02-24T13:35:35.000000Z",
-                "deleted_at": null
-            },
-            "course": {
-                "id": 4,
-                "name": "Curso de HTML5",
-                "description": "Aprenda lo basico en 3 meses",
-                "created_at": "2022-02-24T13:29:19.000000Z",
-                "updated_at": "2022-02-24T13:29:19.000000Z",
-                "deleted_at": null,
-                "photo": null,
-                "media": []
-            }
+            "photo": null,
+            "media": []
         }
-    ]
+    }
 }
