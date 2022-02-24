@@ -44,8 +44,6 @@ En el body:
 
 ![token](https://user-images.githubusercontent.com/58869926/155538651-19257c7d-1490-428b-b167-ca5ed82b7160.jpg)
 
-![Image12](https://user-images.githubusercontent.com/58869926/155495940-4c8d42ca-25fc-4e2b-a312-c332ca12a13a.jpg)
-
 Ingresamos el token obtenido anteriormente
 Ruta
 auth:api   |
