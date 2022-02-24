@@ -32,8 +32,9 @@ Capturas de imagenes del Backend
 ![Image9](https://user-images.githubusercontent.com/58869926/155495917-4e211af4-dd0e-4278-bd11-e10b9ec0354c.jpg)
 
 API REST
-
+| POST      | api/auth/login  | App\Http\Controllers\AuthController@login 
 Obtenemos el token con el endpoint /api/auth/login
+
 En el body:
 {
     "email": "admin@admin.com",
@@ -48,7 +49,7 @@ En el body:
 Ingresamos el token obtenido anteriormente
 Ruta
 auth:api   |
-|        | GET|HEAD  | api/v1/enrollments/{enrollment}     | enrollments.show              | App\Http\Controllers\Api\V1\Admin\EnrollmentsApiController@show  
+GET|HEAD  | api/v1/enrollments/{enrollment} | enrollments.show  | App\Http\Controllers\Api\V1\Admin\EnrollmentsApiController@show  
 
 
 ![token2](https://user-images.githubusercontent.com/58869926/155540493-47b1c2c4-b34a-44da-af3f-66169265c111.jpg)
