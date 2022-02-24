@@ -30,10 +30,13 @@ Capturas de imagenes del Backend
 ![Image5](https://user-images.githubusercontent.com/58869926/155495904-398c1962-9ff2-4917-ae57-111d5a1edd76.jpg)
 ![Image7](https://user-images.githubusercontent.com/58869926/155495911-57d8d5bf-6f79-4744-a979-dbbeb404b37f.jpg)
 ![Image9](https://user-images.githubusercontent.com/58869926/155495917-4e211af4-dd0e-4278-bd11-e10b9ec0354c.jpg)
-![Image10](https://user-images.githubusercontent.com/58869926/155495930-879ac999-b1fd-4569-bc23-38a97e429c18.jpg)
+
+Obtenemos el token con el endpoint /api/auth/login
+![token](https://user-images.githubusercontent.com/58869926/155538651-19257c7d-1490-428b-b167-ca5ed82b7160.jpg)
+
 ![Image12](https://user-images.githubusercontent.com/58869926/155495940-4c8d42ca-25fc-4e2b-a312-c332ca12a13a.jpg)
 
-Ingresamos el endpoint http://test.com/api/v1/enrollments
+Ingresamos el endpoint /api/v1/enrollments
 con el token obtenido anteriormente
 ![Image26](https://user-images.githubusercontent.com/58869926/155537806-ffdfd1ff-75b3-4b84-80b5-b83f7d51ced7.jpg)
 {
