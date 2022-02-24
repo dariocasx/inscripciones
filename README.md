@@ -36,3 +36,54 @@ Capturas de imagenes del Backend
 Ingresamos el endpoint http://test.com/api/v1/enrollments
 con el token obtenido anteriormente
 ![Image26](https://user-images.githubusercontent.com/58869926/155537806-ffdfd1ff-75b3-4b84-80b5-b83f7d51ced7.jpg)
+{
+    "data": [
+        {
+            "id": 1,
+            "status": "awaiting",
+            "created_at": "2022-02-24T08:35:54.000000Z",
+            "updated_at": "2022-02-24T08:35:54.000000Z",
+            "deleted_at": null,
+            "user_id": 3,
+            "course_id": 2,
+            "user": {
+                "id": 3,
+                "name": "Dario cesar",
+                "email": "dariocasx22@hotmail.com",
+                "email_verified_at": null,
+                "created_at": "2022-02-24T08:32:01.000000Z",
+                "updated_at": "2022-02-24T08:32:01.000000Z",
+                "deleted_at": null
+            },
+            "course": null
+        },
+        {
+            "id": 2,
+            "status": "awaiting",
+            "created_at": "2022-02-24T13:35:35.000000Z",
+            "updated_at": "2022-02-24T13:35:35.000000Z",
+            "deleted_at": null,
+            "user_id": 8,
+            "course_id": 4,
+            "user": {
+                "id": 8,
+                "name": "Jorge",
+                "email": "jorge@hotmail.com",
+                "email_verified_at": null,
+                "created_at": "2022-02-24T13:35:35.000000Z",
+                "updated_at": "2022-02-24T13:35:35.000000Z",
+                "deleted_at": null
+            },
+            "course": {
+                "id": 4,
+                "name": "Curso de HTML5",
+                "description": "Aprenda lo basico en 3 meses",
+                "created_at": "2022-02-24T13:29:19.000000Z",
+                "updated_at": "2022-02-24T13:29:19.000000Z",
+                "deleted_at": null,
+                "photo": null,
+                "media": []
+            }
+        }
+    ]
+}
